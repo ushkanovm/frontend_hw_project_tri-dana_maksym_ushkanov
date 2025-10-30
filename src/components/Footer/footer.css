@@ -1,0 +1,10 @@
+.footer-sticker {
+  position: absolute;
+  text-align: start;
+  left: -15%;
+  top: 95%;
+}
+
+.footer-watermark {
+  text-align: end;
+}

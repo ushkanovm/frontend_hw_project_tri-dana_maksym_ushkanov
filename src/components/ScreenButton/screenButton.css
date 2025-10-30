@@ -1,0 +1,46 @@
+.screen-button {
+  width: 45px;
+  height: 25px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--atm-secondary-color);
+  border: none;
+  border-top: 3px solid var(--atm-screen-button-border-top);
+  border-bottom: 3px solid var(--atm-screen-button-border-bottom);
+  margin: 10px 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+}
+
+.screen-button--left::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 5px;
+  background: var(--atm-screen-button-border-bottom);
+}
+
+.screen-button--right::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 5px;
+  background: var(--atm-screen-button-border-bottom);
+}
+
+.screen-button:active {
+  background: var(--atm-screen-button-active);
+}

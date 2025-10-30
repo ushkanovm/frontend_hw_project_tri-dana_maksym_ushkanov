@@ -1,0 +1,30 @@
+.header-wrapper {
+  background-color: var(--atm-header-color);
+  width: 500px;
+  height: 122px;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.header-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.header-graffiti {
+  position: absolute;
+  right: 12%;
+  top: 12;
+}

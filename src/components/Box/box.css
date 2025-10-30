@@ -1,0 +1,26 @@
+.box-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--atm-body-color);
+  width: 478px;
+  height: 1000px;
+}
+
+.box-divider {
+  width: 100%;
+  background-color: var(--atm-secondary-color);
+  height: 10px;
+}
+
+.box-controls-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.box-controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+}

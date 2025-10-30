@@ -1,0 +1,24 @@
+:root {
+  --atm-background-color: #9f80ac;
+  --atm-system-background-color: #7eb4d5;
+  --atm-system-text-color: #FFFFFF;
+  --atm-header-color: #126cae;
+  --atm-body-color: #f1f0e7;
+  --atm-secondary-color: #c1c1c1;
+  --atm-screen-border-color: #e1e1d6;
+  --atm-screen-button-border-top: #d0d0cd;
+  --atm-screen-button-border-bottom: #b5b5b3;
+  --atm-screen-button-active: #d4d4d4;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--atm-background-color);
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
